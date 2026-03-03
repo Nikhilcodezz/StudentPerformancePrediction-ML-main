@@ -130,3 +130,4 @@ for name, model in models.items():
     print(m.classification_report(y_test, y_pred, target_names=le_y.classes_))
     print(f"Accuracy: {round(accuracy, 3)}\n")
     t.sleep(1)
+
